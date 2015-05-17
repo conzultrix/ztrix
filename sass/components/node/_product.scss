@@ -1,0 +1,7 @@
+@include breakpoint($tab) {
+  .product-teaser {
+    .l-grid > li {
+      width: 48%;
+    }
+  }
+}

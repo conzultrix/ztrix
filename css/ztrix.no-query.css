@@ -1,6 +1,41 @@
 /* No files to import found in abstractions/**\/* */
-/* line 1, ../sass/base/_media.scss */
 img, media {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
-/*# sourceMappingURL=ztrix.no-query.css.map */
+.contact-us-block {
+  text-align: right;
+}
+.contact-us-block h2 {
+  display: none;
+}
+
+.l-grid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.l-grid > li {
+  display: inline-block;
+  margin: 0 0 10px 10px;
+}
+
+.l-region--navigation h2 {
+  display: none;
+}
+
+.site-name {
+  display: none;
+}
+
+.site-slogan {
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: -15px;
+}
+
+.l-footer h2 {
+  display: none;
+}

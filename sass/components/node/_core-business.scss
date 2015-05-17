@@ -1,0 +1,7 @@
+@include breakpoint($tab) {
+  .core-business-teaser {
+    .l-grid > li {
+      width: 30%;
+    }
+  }
+}
