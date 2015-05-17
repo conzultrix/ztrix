@@ -10,6 +10,55 @@ img, media {
   display: none;
 }
 
+.social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover, .icon-linkedin, .icon-linkedin:hover {
+  background-image: url('../images/generated/../images/social-s32b67fc26c.png');
+  background-repeat: no-repeat;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.icon-facebook {
+  background-position: 0 -26px;
+}
+.icon-facebook:hover {
+  background-position: 0 0;
+}
+
+.icon-twitter {
+  background-position: 0 -234px;
+}
+.icon-twitter:hover {
+  background-position: 0 -208px;
+}
+
+.icon-gplus {
+  background-position: 0 -78px;
+}
+.icon-gplus:hover {
+  background-position: 0 -52px;
+}
+
+.icon-contact {
+  background-position: 0 -182px;
+}
+.icon-contact:hover {
+  background-position: 0 -156px;
+}
+
+.icon-linkedin {
+  background-position: 0 -130px;
+}
+.icon-linkedin:hover {
+  background-position: 0 -104px;
+}
+
 .l-grid {
   margin: 0;
   padding: 0;
@@ -40,6 +89,11 @@ img, media {
   display: none;
 }
 
+@media (min-width: 44em) {
+  .site-connections-block {
+    float: right;
+  }
+}
 @media (min-width: 44em) {
   .core-business-teaser .l-grid > li {
     width: 30%;
