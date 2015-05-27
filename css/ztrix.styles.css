@@ -1,13 +1,64 @@
 /* No files to import found in abstractions/**\/* */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Lato);
 img, media {
   max-width: 100%;
 }
 
-.contact-us-block {
-  text-align: right;
+.l-header {
+  padding-top: 10px;
+  border-bottom: 2px solid #2A22D3;
 }
+
+.l-footer {
+  border-top: 2px solid #1A1A1A;
+  padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #313233;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #555555;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #313233;
+  transition: all 0.3s ease;
+}
+a:hover, a:focus {
+  color: #0B2A74;
+}
+
 .contact-us-block h2 {
   display: none;
+}
+
+@media (min-width: 44em) {
+  .contact-us-block {
+    text-align: right;
+  }
+}
+.front .l-content > h1 {
+  display: none;
+}
+
+.home-intro {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.frontpage-core-business {
+  display: block;
+  font-size: 150%;
+}
+.frontpage-core-business a {
+  text-decoration: none;
 }
 
 .social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover, .icon-linkedin, .icon-linkedin:hover {
@@ -89,11 +140,30 @@ img, media {
   display: none;
 }
 
+.main-menu a {
+  padding: 5px 0.5em;
+}
+.main-menu a:hover, .main-menu a.active, .main-menu a.active-trail {
+  padding-bottom: 0;
+  border-bottom: 5px solid #2A22D3;
+  color: #313233;
+}
+.main-menu li.first > a {
+  padding-left: 0;
+}
+.main-menu li.first > a.active {
+  border-bottom: none;
+}
+
 @media (min-width: 44em) {
   .site-connections-block {
     float: right;
   }
 }
+.site-connections-block a {
+  transition: none;
+}
+
 @media (min-width: 44em) {
   .core-business-teaser .l-grid > li {
     width: 30%;

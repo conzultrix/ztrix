@@ -1,0 +1,19 @@
+.main-menu {
+  a {
+    padding: 5px 0.5em;
+    
+    &:hover, &.active, &.active-trail {
+      padding-bottom: 0;
+      border-bottom: 5px solid $bright-blue;
+      color: $links;
+    }
+  }
+  
+  li.first > a {
+    padding-left: 0;
+    
+    &.active {
+      border-bottom: none;
+    }
+  }
+}
