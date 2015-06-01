@@ -1,5 +1,13 @@
 /* No files to import found in abstractions/**\/* */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu|Lato);
+ol, ul {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
 img, media {
   max-width: 100%;
 }
@@ -14,6 +22,10 @@ img, media {
   padding-top: 20px;
 }
 
+.inline {
+  display: inline;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
   color: #313233;
@@ -21,15 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #555555;
-  line-height: 2em;
+  color: #404040;
   font-size: 1em;
+}
+
+p {
+  line-height: 1.8;
 }
 
 a {
   text-decoration: none;
   color: #313233;
-  transition: all 0.3s ease;
 }
 a:hover, a:focus {
   color: #0B2A74;
@@ -52,13 +66,13 @@ a:hover, a:focus {
   margin: 20px 0;
   text-align: center;
 }
+.home-intro p {
+  font-size: 1.2em;
+}
 
 .frontpage-core-business {
   display: block;
   font-size: 150%;
-}
-.frontpage-core-business a {
-  text-decoration: none;
 }
 
 .social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover, .icon-linkedin, .icon-linkedin:hover {
@@ -133,7 +147,7 @@ a:hover, a:focus {
   font-size: 0.9em;
   font-style: italic;
   font-weight: normal;
-  margin-top: -15px;
+  margin-top: -25px;
 }
 
 .l-footer h2 {
@@ -162,6 +176,13 @@ a:hover, a:focus {
 }
 .site-connections-block a {
   transition: none;
+}
+
+.node--blog--teaser .field--node-link {
+  float: right;
+}
+.node--blog--teaser .field--image {
+  float: left;
 }
 
 @media (min-width: 44em) {
