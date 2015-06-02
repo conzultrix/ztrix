@@ -183,6 +183,29 @@ a:hover, a:focus {
 }
 .node--blog--teaser .field--image {
   float: left;
+  margin-right: 1.5em;
+}
+.node--blog--teaser .field--title h2 {
+  margin-bottom: 5px;
+}
+
+.blog-meta {
+  font-size: 80%;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.blog-author {
+  font-style: italic;
+  text-transform: none;
+  color: #414141;
+}
+
+.blog-listing li {
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 44em) {
