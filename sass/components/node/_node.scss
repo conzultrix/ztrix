@@ -1,0 +1,6 @@
+@include breakpoint($desk) {
+  .not-front .has-no-sidebars .view-mode-full {
+    width: 75%;
+    margin: auto;
+  }
+}
