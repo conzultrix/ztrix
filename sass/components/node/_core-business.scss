@@ -5,3 +5,22 @@
     }
   }
 }
+
+.cb-more-link a {
+  letter-spacing: 0.02em;
+  &::after {
+    content: ' >>';
+  }
+}
+
+.cb-training a {
+  color: #2700b8;
+}
+
+.cb-development a {
+  color: #ff2ade;
+}
+
+.cb-consulting a {
+  color: #00f74d;
+}

@@ -22,13 +22,9 @@ img, media {
   padding-top: 20px;
 }
 
-.inline {
-  display: inline;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
-  color: #313233;
+  color: #000000;
 }
 
 body {
@@ -43,7 +39,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #313233;
+  color: #000000;
 }
 a:hover, a:focus {
   color: #0B2A74;
@@ -58,6 +54,14 @@ a:hover, a:focus {
     text-align: right;
   }
 }
+.field--tags.inline {
+  display: inline;
+}
+
+.field-label {
+  font-weight: bold;
+}
+
 .front .l-content > h1 {
   display: none;
 }
@@ -160,7 +164,7 @@ a:hover, a:focus {
 .main-menu a:hover, .main-menu a.active, .main-menu a.active-trail {
   padding-bottom: 0;
   border-bottom: 5px solid #2A22D3;
-  color: #313233;
+  color: #000000;
 }
 .main-menu li.first > a {
   padding-left: 0;
@@ -204,8 +208,8 @@ a:hover, a:focus {
 
 .blog-listing li {
   border-bottom: 1px solid #DDD;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 44em) {
@@ -213,6 +217,25 @@ a:hover, a:focus {
     width: 30%;
   }
 }
+.cb-more-link a {
+  letter-spacing: 0.02em;
+}
+.cb-more-link a::after {
+  content: ' >>';
+}
+
+.cb-training a {
+  color: #2700b8;
+}
+
+.cb-development a {
+  color: #ff2ade;
+}
+
+.cb-consulting a {
+  color: #00f74d;
+}
+
 @media (min-width: 70em) {
   .not-front .has-no-sidebars .view-mode-full {
     width: 75%;
