@@ -1,0 +1,11 @@
+#comments {
+  margin: 20px 0;
+  padding: 2em;
+  border: 1px solid $list-underline;
+  border-radius: 2em;
+  article {
+    margin-bottom: 50px;
+    border-bottom: 1px solid $list-underline;
+    padding-bottom: 20px;
+  }
+}

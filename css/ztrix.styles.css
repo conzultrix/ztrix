@@ -45,6 +45,25 @@ a:hover, a:focus {
   color: #0B2A74;
 }
 
+.breadcrumb {
+  font-size: 85%;
+}
+.breadcrumb li {
+  display: inline;
+}
+
+#comments {
+  margin: 20px 0;
+  padding: 2em;
+  border: 1px solid #DDD;
+  border-radius: 2em;
+}
+#comments article {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 20px;
+}
+
 .contact-us-block h2 {
   display: none;
 }
