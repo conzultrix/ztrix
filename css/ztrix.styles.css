@@ -56,10 +56,10 @@ a:hover, a:focus {
   margin: 20px 0;
   padding: 2em;
   border: 1px solid #DDD;
-  border-radius: 2em;
+  border-radius: 1em;
 }
 #comments article {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #DDD;
   padding-bottom: 20px;
 }
