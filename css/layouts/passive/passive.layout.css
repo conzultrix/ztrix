@@ -10,12 +10,14 @@
 }
 
 .l-header,
+.l-branding,
 .l-main,
 .l-postscript,
 .l-footer {
   margin-bottom: 20px;
 }
 
+.l-region--header,
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,

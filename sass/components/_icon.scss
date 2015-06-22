@@ -1,4 +1,4 @@
-@import '../images/social/*.png';
+@import '../images/icons/social/*.png';
 
 .icon {
   width: 26px;
@@ -43,5 +43,24 @@
   
   &:hover {
     @include social-sprite('linkedin-1');
+  }
+}
+
+
+#edlynk-apps {
+  .mail {
+    @include headerbgimage('../images/icons/edlynk/email.png');
+  }
+  .doc {
+    @include headerbgimage('../images/icons/edlynk/doc.png');
+  }
+  .calc {
+    @include headerbgimage('../images/icons/edlynk/calc.png');
+  }
+  .storage {
+    @include headerbgimage('../images/icons/edlynk/storage.png');
+  }
+  .talk {
+    @include headerbgimage('../images/icons/edlynk/talk.png');
   }
 }

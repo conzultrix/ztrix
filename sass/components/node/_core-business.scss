@@ -8,9 +8,6 @@
 
 .cb-more-link a {
   letter-spacing: 0.02em;
-  &::after {
-    content: ' >>';
-  }
 }
 
 .cb-training a {

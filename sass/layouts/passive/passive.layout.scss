@@ -35,6 +35,7 @@ $tab: 44em;
 $desk: 70em;
 
 .l-header,
+.l-branding,
 .l-main,
 .l-postscript,
 .l-footer {
@@ -42,6 +43,7 @@ $desk: 70em;
   margin-bottom: $vert-spacing-unit;
 }
 
+.l-region--header,
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,

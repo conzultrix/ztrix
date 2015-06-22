@@ -1,10 +1,21 @@
-.front .l-content > h1 {
-  display: none;
+.front {
+  .l-content > h1 {
+    display: none;
+  }
+  .block__title {
+    margin-top: 60px;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .view {
+    text-align: center;
+  }
 }
 
 .home-intro {
   margin: 20px 0;
   text-align: center;
+  padding-top: 20px;
   
   p {
     font-size: 1.2em;

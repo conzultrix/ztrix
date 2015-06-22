@@ -1,7 +1,47 @@
+.product-cover {
+  .node__title {
+    display: none;
+  }
+}
+
+.field--product-image {
+  text-align: center;
+}
+
 @include breakpoint($tab) {
-  .product-teaser {
+  .product-cover {
     .l-grid > li {
       width: 48%;
+      text-align: center;
     }
+    
+    ul {
+      text-align: center;
+    }
+    
+    li {
+      border-right: 1px solid $list-underline;
+      padding-right: 2em;
+    }
+    li:last-child {
+      border-right: none;
+    }
+  }
+  
+  .product-teaser {
+    .l-grid > li {
+      width: 45%;
+      padding-right: 2em;
+      margin-right: 3%;
+    }
+  }
+}
+
+#edlynk-apps {
+  text-align: center;
+  h2 {
+    margin-top: 50px;
+    padding-top: 40px;
+    @include underline;
   }
 }
