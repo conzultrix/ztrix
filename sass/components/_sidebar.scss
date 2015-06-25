@@ -1,0 +1,12 @@
+.l-region--sidebar-first, .l-region--sidebar-second {
+  h2 {
+    //color: $hover;
+    border-top: 2px solid $hover;
+    padding-top: 5px;
+  }
+  li {
+    @include underline;
+    padding-top: 5px;
+    padding-bottom: 2px;
+  }
+}

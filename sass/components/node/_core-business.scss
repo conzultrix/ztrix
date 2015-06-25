@@ -2,6 +2,12 @@
   .core-business-teaser {
     .l-grid > li {
       width: 30%;
+      padding-right: 2em;
+    }
+    .view-mode-teaser {
+      h2, .field--body, .cb-more-link {
+        text-align: left;
+      }
     }
   }
 }
@@ -10,14 +16,20 @@
   letter-spacing: 0.02em;
 }
 
-.cb-training a {
-  color: #2700b8;
+.view-mode-cover {
+  .cb-training a {
+    color: #2700b8;
+  }
+  
+  .cb-development a {
+    color: #ff2ade;
+  }
+  
+  .cb-consulting a {
+    color: #00f74d;
+  }
 }
 
-.cb-development a {
-  color: #ff2ade;
-}
-
-.cb-consulting a {
-  color: #00f74d;
+.core-business-teaser {
+  //text-align: center;
 }

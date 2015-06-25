@@ -2,6 +2,7 @@
 
 #{headings(all)} {
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
   color: $header;
 }
 
@@ -9,12 +10,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: $font;
   font-size: 1em;
+  line-height: 1.8;
+  background-color: #FFFFFF;
 }
 
 p {
-  line-height: 1.8;
   margin-bottom: 20px;
-
 }
 
 a {

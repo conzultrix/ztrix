@@ -1,4 +1,12 @@
 .product-cover {
+  li {
+    padding-top: 30px;
+    @include underline;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
   .node__title {
     display: none;
   }
@@ -20,6 +28,7 @@
     }
     
     li {
+      border-bottom: none;
       border-right: 1px solid $list-underline;
       padding-right: 2em;
     }
