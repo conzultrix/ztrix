@@ -336,7 +336,7 @@ a:hover, a:focus {
 
 @media (min-width: 44em) {
   .product-cover .l-grid > li {
-    width: 48%;
+    width: 30%;
     text-align: center;
   }
   .product-cover ul {
@@ -351,10 +351,14 @@ a:hover, a:focus {
     border-right: none;
   }
 
+  .product-teaser ul {
+    text-align: center;
+  }
   .product-teaser .l-grid > li {
-    width: 45%;
+    width: 30%;
     padding-right: 2em;
     margin-right: 3%;
+    text-align: left;
   }
 }
 #edlynk-apps {

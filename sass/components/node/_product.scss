@@ -19,7 +19,7 @@
 @include breakpoint($tab) {
   .product-cover {
     .l-grid > li {
-      width: 48%;
+      width: 30%;
       text-align: center;
     }
     
@@ -38,10 +38,14 @@
   }
   
   .product-teaser {
+    ul {
+      text-align: center;
+    }
     .l-grid > li {
-      width: 45%;
+      width: 30%;
       padding-right: 2em;
       margin-right: 3%;
+      text-align: left;
     }
   }
 }
