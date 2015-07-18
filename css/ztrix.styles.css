@@ -1,4 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:300|Open+Sans);
+input {
+  max-width: 100%;
+}
+
+@media (min-width: 44em) {
+  .contact-form textarea, .contact-form input[type="text"], .contact-form .grippie {
+    width: 600px;
+  }
+}
 ol, ul {
   padding: 0;
 }
