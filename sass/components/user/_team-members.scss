@@ -1,0 +1,20 @@
+.team-members {
+  img {
+    border-radius: 50%;
+    border: 5px solid $list-underline;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  ul > li {
+    width: 320px;
+  }
+  
+  .user-role {
+    font-size: 90%;
+    font-style: italic;
+  }
+}
+
+
+

@@ -90,6 +90,16 @@ a:hover, a:focus {
   text-align: center;
 }
 
+.field--team-role {
+  font-style: italic;
+  font-size: 95%;
+  margin-bottom: 4em;
+}
+
+.not-logged-in .field--team-role {
+  margin-top: -1.875em;
+}
+
 .front .l-content > h1 {
   display: none;
 }
@@ -118,6 +128,11 @@ a:hover, a:focus {
 
 .social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover, .icon-linkedin, .icon-linkedin:hover {
   background-image: url('../images/generated/../images/icons/social-s7b0e1258ea.png');
+  background-repeat: no-repeat;
+}
+
+.social32-sprite, .icon-twitter-32, .icon-linkedin-32, .icon-github-32 {
+  background-image: url('../images/generated/../images/icons/social32-sec9e16f980.png');
   background-repeat: no-repeat;
 }
 
@@ -191,6 +206,27 @@ a:hover, a:focus {
   background-repeat: no-repeat;
 }
 
+.icon-32 {
+  height: 33px;
+  width: 33px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.icon-twitter-32 {
+  background-position: 0 -66px;
+}
+
+.icon-linkedin-32 {
+  background-position: 0 -32px;
+}
+
+.icon-github-32 {
+  background-position: 0 0;
+}
+
 .l-grid {
   margin: 0;
   padding: 0;
@@ -259,14 +295,13 @@ div.responsive-toggled {
   box-shadow: none;
 }
 
-.l-region--sidebar-first h2, .l-region--sidebar-second h2 {
-  border-top: 2px solid #0B3386;
-  padding-top: 5px;
-}
 .l-region--sidebar-first li, .l-region--sidebar-second li {
   border-bottom: 1px solid #DDD;
   padding-top: 5px;
   padding-bottom: 2px;
+}
+.l-region--sidebar-first .links--inline li, .l-region--sidebar-second .links--inline li {
+  border-bottom: none;
 }
 
 .site-name {
@@ -278,6 +313,12 @@ div.responsive-toggled {
   font-style: italic;
   font-weight: normal;
   margin-top: -25px;
+}
+
+.not-front .block h2 {
+  border-top: 2px solid #0B3386;
+  padding-top: 5px;
+  margin-top: 80px;
 }
 
 .l-footer h2 {
@@ -372,4 +413,25 @@ div.responsive-toggled {
   margin-top: 50px;
   padding-top: 40px;
   border-bottom: 1px solid #DDD;
+}
+
+.profile-image img {
+  border: 5px solid #FFF;
+  box-shadow: 1px 1px 4px #858585;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team-members img {
+  border-radius: 50%;
+  border: 5px solid #DDD;
+  float: left;
+  margin-right: 10px;
+}
+.team-members ul > li {
+  width: 320px;
+}
+.team-members .user-role {
+  font-size: 90%;
+  font-style: italic;
 }

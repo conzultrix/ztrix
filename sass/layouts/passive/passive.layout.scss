@@ -134,7 +134,7 @@ $desk: 70em;
 
   .has-sidebar-first {
     .l-content {
-      @include grid-span(12,1);
+      @include grid-span(12,1); // changed 12 col to 11
       //@include span-columns(12 omega, 16); // Span the last (omega) 12 columns of 16.
     }
     .l-region--sidebar-first {
@@ -144,7 +144,7 @@ $desk: 70em;
   }
   .has-sidebar-second {
     .l-content {
-      @include grid-span(12, 1);
+      @include grid-span(12, 1); // change 12 cols to 11
       //@include span-columns(12, 16); // Span 12 out of 16 columns.
     }
     .l-region--sidebar-second {

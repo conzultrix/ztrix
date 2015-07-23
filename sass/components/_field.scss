@@ -9,3 +9,13 @@
 .field--full-image {
   text-align: center;
 }
+
+.field--team-role {
+  font-style: italic;
+  font-size: 95%;
+  margin-bottom: 4em;
+}
+
+.not-logged-in .field--team-role {
+  margin-top: -1.875em;
+}

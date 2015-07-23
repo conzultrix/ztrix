@@ -1,4 +1,5 @@
 @import '../images/icons/social/*.png';
+@import '../images/icons/social32/*.png';
 
 .icon {
   width: 26px;
@@ -63,4 +64,22 @@
   .talk {
     @include headerbgimage('../images/icons/edlynk/talk.png');
   }
+}
+
+.icon-32 {
+  height: 33px;
+  width: 33px;
+  @include hide-text;
+}
+
+.icon-twitter-32 {
+  @include social32-sprite('twitter-32');
+}
+
+.icon-linkedin-32 {
+  @include social32-sprite('linkedin-32');
+}
+
+.icon-github-32 {
+  @include social32-sprite('github-32');
 }
