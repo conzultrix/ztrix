@@ -481,9 +481,8 @@ div.responsive-toggled {
 
 .team-members img {
   border-radius: 50%;
-  border: 5px solid #DDD;
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .team-members ul > li {
   width: 320px;
