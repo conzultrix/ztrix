@@ -1,10 +1,10 @@
 .product-cover {
   li {
     padding-top: 30px;
-    @include underline;
+    background-color: #eee;
     
-    &:last-child {
-      border-bottom: none;
+    article {
+      margin: 1em;
     }
   }
   .node__title {
@@ -19,12 +19,12 @@
 @include breakpoint($tab) {
   .product-cover {
     .l-grid > li {
-      width: 30%;
+      width: 48%;
       text-align: center;
     }
     
     ul {
-      text-align: center;
+      //text-align: center;
     }
     
     li {

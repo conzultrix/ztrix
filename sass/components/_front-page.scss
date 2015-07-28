@@ -1,4 +1,9 @@
 .front {
+  .l-main {
+    background-color: $hover;
+    margin-top: -20px;
+    padding: 20px 0;
+  }
   .l-content > h1 {
     display: none;
   }
@@ -10,19 +15,33 @@
   .view {
     text-align: center;
   }
+  #block-views-core-business-block .block__title {
+    display: none;
+  }
 }
 
 .home-intro {
   margin: 10px 0;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
+  color: #FFF;
+  
   
   p {
-    font-size: 1.2em;
+    font-size: 2em;
   }
 }
 
 .frontpage-core-business {
   display: block;
+}
+.fp-tech, .fp-biz {
   font-size: 150%;
 }
+.fp-tech{
+  margin-right: 0.2em;
+}
+.fp-biz {
+  margin-left: 0.2em;
+}
+ 

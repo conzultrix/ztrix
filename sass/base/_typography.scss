@@ -2,7 +2,7 @@
 
 #{headings(all)} {
   font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  //font-weight: 300;
   color: $header;
 }
 
@@ -11,11 +11,6 @@ body {
   color: $font;
   font-size: 1em;
   line-height: 1.8;
-  background-color: #FFFFFF;
-}
-
-p {
-  margin-bottom: 20px;
 }
 
 a {
@@ -25,5 +20,15 @@ a {
   
   &:hover, &:focus {
     color: $hover;
+  }
+}
+
+.home-intro {
+  font-family: 'Oswald', sans-serif;
+  a {
+      color: #FFF;
+      &:hover {
+        color: $header;
+    }
   }
 }

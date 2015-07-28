@@ -17,7 +17,6 @@ img, media {
 }
 
 .l-header {
-  padding-top: 10px;
   border-bottom: 2px solid #0B3386;
 }
 
@@ -26,9 +25,18 @@ img, media {
   padding-top: 20px;
 }
 
+body {
+  background-color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  font-weight: 300;
   color: #000000;
 }
 
@@ -37,11 +45,6 @@ body {
   color: #555555;
   font-size: 1em;
   line-height: 1.8;
-  background-color: #FFFFFF;
-}
-
-p {
-  margin-bottom: 20px;
 }
 
 a {
@@ -50,6 +53,16 @@ a {
 }
 a:hover, a:focus {
   color: #0B3386;
+}
+
+.home-intro {
+  font-family: 'Oswald', sans-serif;
+}
+.home-intro a {
+  color: #FFF;
+}
+.home-intro a:hover {
+  color: #000000;
 }
 
 .breadcrumb {
@@ -100,6 +113,11 @@ a:hover, a:focus {
   margin-top: -1.875em;
 }
 
+.front .l-main {
+  background-color: #0B3386;
+  margin-top: -20px;
+  padding: 20px 0;
+}
 .front .l-content > h1 {
   display: none;
 }
@@ -111,19 +129,34 @@ a:hover, a:focus {
 .front .view {
   text-align: center;
 }
+.front #block-views-core-business-block .block__title {
+  display: none;
+}
 
 .home-intro {
   margin: 10px 0;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
+  color: #FFF;
 }
 .home-intro p {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .frontpage-core-business {
   display: block;
+}
+
+.fp-tech, .fp-biz {
   font-size: 150%;
+}
+
+.fp-tech {
+  margin-right: 0.2em;
+}
+
+.fp-biz {
+  margin-left: 0.2em;
 }
 
 .social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover, .icon-linkedin, .icon-linkedin:hover {
@@ -379,6 +412,7 @@ div.responsive-toggled {
 
 .cb-more-link a {
   letter-spacing: 0.02em;
+  font-size: 0.875em;
 }
 
 .view-mode-cover .cb-training a {
@@ -393,10 +427,10 @@ div.responsive-toggled {
 
 .product-cover li {
   padding-top: 30px;
-  border-bottom: 1px solid #DDD;
+  background-color: #eee;
 }
-.product-cover li:last-child {
-  border-bottom: none;
+.product-cover li article {
+  margin: 1em;
 }
 .product-cover .node__title {
   display: none;

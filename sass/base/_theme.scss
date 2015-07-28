@@ -1,9 +1,18 @@
 .l-header {
-  padding-top: 10px;
   border-bottom: 2px solid $hover;
 }
 
 .l-footer {
   border-top: 2px solid $footer-top;
   padding-top: 20px;
+}
+
+body {
+  background-color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
 }
