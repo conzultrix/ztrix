@@ -482,7 +482,6 @@ div.responsive-toggled {
   }
   .product-cover li {
     border-bottom: none;
-    border-right: 1px solid #DDD;
     padding-right: 2em;
   }
   .product-cover li:last-child {
