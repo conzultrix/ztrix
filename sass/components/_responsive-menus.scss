@@ -48,5 +48,24 @@ div.responsive-toggled {
   background: darken($hover, 0.9);
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  box-shadow: none;
+  //box-shadow: none;
+}
+
+.navbar-toggle {
+   padding: 9px 10px;
+   margin-right: 15px;
+   background: none;
+   border: none;
+}
+
+.navbar-toggle .icon-bar {
+   display: block;
+   width: 22px;
+   height: 2px;
+   background-color: $hover;
+   border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+   margin-top: 5px;
 }
