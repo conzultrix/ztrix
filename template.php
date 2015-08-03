@@ -48,10 +48,3 @@ function ztrix_form_user_login_alter(&$form, &$form_state) {
   $form['actions']['submit']['#value'] = 'Sign In';
   $form['actions']['submit']['#attributes']['class'][] = 'btn';
 }
-
-/**
- * Implements hook_page_alter().
- */
-function ztrix_page_alter(&$page) {
-  dpm($page);
-}
