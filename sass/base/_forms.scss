@@ -9,3 +9,36 @@ input {
     }
   }
 }
+
+form input[type="submit"] {
+  width: auto;
+  padding: .5em 1.5em;
+}
+
+input[type="submit"] {
+  text-align: center;
+  text-decoration: none;
+  text-shadow: transparent 0 0 0;
+  border: 0 transparent;
+  transition: background-color 100ms ease-in-out;
+  margin-right: 1em;
+  color: #fff;
+  background-color: $hover;
+  letter-spacing: .06em;
+  line-height: 120%;
+  padding: 12px 20px;
+  
+  &:hover {
+    background-color: darken($hover, 0.9);
+  }
+}
+
+input[type="text"], input[type="password"] {
+  padding: 0.5em 0.25em;
+  border-radius: 0;
+}
+
+.form-item label, .form-actions label {
+  display: block;
+  font-weight: normal;
+}

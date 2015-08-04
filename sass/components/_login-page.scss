@@ -1,0 +1,63 @@
+.login-page {
+  padding: 0;
+  background-color: $hover;
+  color: #fff;
+  
+  #{headings(all)} {
+    //font-family: 'Oswald', sans-serif;
+    //font-weight: 300;
+    color: #fff;
+  }
+  
+  a {
+    color: #fff;
+    font-weight: normal;
+    &:hover {
+      color: #aaa;
+    }
+  }
+  
+   
+  .l-main {
+    background-color: $header;
+    color: #aaa;
+  }
+    
+  .l-content, .l-prefix {
+    padding: 2em;
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: none;
+  }
+}
+
+.login-intro {
+  .login-caption {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 400%;
+    border: none;
+    margin: 0;
+  }
+  
+  #edit-actions {
+    display: inline;
+  }
+}
+
+@include breakpoint ($tab) {
+  .login-page{
+    .l-page {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      min-height: 600px;
+    }
+   .l-main {
+      height: 100%;
+    }
+  }
+  
+}

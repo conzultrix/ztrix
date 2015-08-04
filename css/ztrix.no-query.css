@@ -3,6 +3,38 @@ input {
   max-width: 100%;
 }
 
+form input[type="submit"] {
+  width: auto;
+  padding: .5em 1.5em;
+}
+
+input[type="submit"] {
+  text-align: center;
+  text-decoration: none;
+  text-shadow: transparent 0 0 0;
+  border: 0 transparent;
+  transition: background-color 100ms ease-in-out;
+  margin-right: 1em;
+  color: #fff;
+  background-color: #0B3386;
+  letter-spacing: .06em;
+  line-height: 120%;
+  padding: 12px 20px;
+}
+input[type="submit"]:hover {
+  background-color: #0b3182;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 0.5em 0.25em;
+  border-radius: 0;
+}
+
+.form-item label, .form-actions label {
+  display: block;
+  font-weight: normal;
+}
+
 ol, ul {
   padding: 0;
 }
@@ -273,6 +305,44 @@ a:hover, a:focus {
   vertical-align: top;
 }
 
+.login-page {
+  padding: 0;
+  background-color: #0B3386;
+  color: #fff;
+}
+.login-page h1, .login-page h2, .login-page h3, .login-page h4, .login-page h5, .login-page h6 {
+  color: #fff;
+}
+.login-page a {
+  color: #fff;
+  font-weight: normal;
+}
+.login-page a:hover {
+  color: #aaa;
+}
+.login-page .l-main {
+  background-color: #000000;
+  color: #aaa;
+}
+.login-page .l-content, .login-page .l-prefix {
+  padding: 2em;
+}
+.login-page input[type="text"], .login-page input[type="password"] {
+  border: none;
+}
+
+.login-intro .login-caption {
+  font-size: 150%;
+}
+.login-intro h2 {
+  font-size: 400%;
+  border: none;
+  margin: 0;
+}
+.login-intro #edit-actions {
+  display: inline;
+}
+
 .l-region--navigation h2 {
   display: none;
 }
@@ -379,8 +449,6 @@ div.responsive-toggled {
 
 .not-front .block h2 {
   border-top: 2px solid #0B3386;
-  padding-top: 5px;
-  margin-top: 80px;
 }
 
 .l-footer h2 {

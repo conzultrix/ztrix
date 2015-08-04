@@ -42,7 +42,6 @@ function ztrix_theme() {
  * Implements hook_form_FORM_ID_alter().
  */
 function ztrix_form_user_login_alter(&$form, &$form_state) {
-  dpm($form);
   unset($form['name']['#description']);
   unset($form['pass']['#description']);
   $form['actions']['submit']['#value'] = 'Sign In';

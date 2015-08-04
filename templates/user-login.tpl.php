@@ -12,4 +12,5 @@ print '</pre>';*/
   <?php print drupal_render($form['form_build_id']); ?>
   <?php print drupal_render($form['form_id']); ?>
   <?php print drupal_render($form['actions']); ?>
+  <?php print $password_reset_link; ?>
 </div>

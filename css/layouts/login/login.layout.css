@@ -1,0 +1,49 @@
+/*******************************************************************************
+ * login.layout.scss
+ *
+ * Styling of the "passive" layout demonstrating the Compass grid extension Singularity
+ * and building mobile first layouts.
+ ******************************************************************************/
+.l-region--highlighted,
+.l-region--help {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 44em) {
+  .l-prefix {
+    -sgs-span-settings: ("span": 7, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 57.44681%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+
+  .l-main {
+    -sgs-span-settings: ("span": 5, "location": 8, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 40.42553%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 70em) {
+  .l-prefix {
+    -sgs-span-settings: ("span": 11, "location": 1, "grid": 16, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 68.25397%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+
+  .l-main {
+    -sgs-span-settings: ("span": 5, "location": 12, "grid": 16, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 30.15873%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
