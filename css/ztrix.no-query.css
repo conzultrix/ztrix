@@ -121,6 +121,11 @@ form.contact-form {
   padding-right: 2.5em;
 }
 
+.contact-form input[type='text'], .contact-form textarea {
+  background-color: #eee;
+  border: none;
+}
+
 .block--conzultrix-contact-conzultrix-more-contact .label {
   font-weight: bold;
 }

@@ -121,6 +121,11 @@ form.contact-form {
   padding-right: 2.5em;
 }
 
+.contact-form input[type='text'], .contact-form textarea {
+  background-color: #eee;
+  border: none;
+}
+
 @media (min-width: 44em) {
   .contact-form textarea, .contact-form input[type="text"], .contact-form .grippie {
     width: 100%;
