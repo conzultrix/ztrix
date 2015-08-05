@@ -2,13 +2,6 @@ input {
   max-width: 100%;
 }
 
-@include breakpoint($tab) {
-  .contact-form {
-    textarea, input[type="text"], .grippie{
-      width: 600px;
-    }
-  }
-}
 
 form input[type="submit"] {
   width: auto;

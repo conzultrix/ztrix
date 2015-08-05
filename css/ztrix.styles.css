@@ -3,11 +3,6 @@ input {
   max-width: 100%;
 }
 
-@media (min-width: 44em) {
-  .contact-form textarea, .contact-form input[type="text"], .contact-form .grippie {
-    width: 600px;
-  }
-}
 form input[type="submit"] {
   width: auto;
   padding: .5em 1.5em;
@@ -120,6 +115,44 @@ a:hover, a:focus {
   margin-bottom: 20px;
   border-bottom: 1px solid #DDD;
   padding-bottom: 20px;
+}
+
+form.contact-form {
+  padding-right: 2.5em;
+}
+
+@media (min-width: 44em) {
+  .contact-form textarea, .contact-form input[type="text"], .contact-form .grippie {
+    width: 100%;
+  }
+}
+@media (min-width: 70em) {
+  .contact-form .form-item-name,
+  .contact-form .form-item-mail,
+  .contact-form .form-item-phone,
+  .contact-form .form-item-company {
+    width: 47%;
+    margin-right: 5%;
+    display: inline-block;
+  }
+  .contact-form .form-item-mail,
+  .contact-form .form-item-company {
+    margin-right: 0;
+  }
+}
+.block--conzultrix-contact-conzultrix-more-contact .label {
+  font-weight: bold;
+}
+.block--conzultrix-contact-conzultrix-more-contact h3 {
+  border-bottom: 1px solid #0B3386;
+}
+.block--conzultrix-contact-conzultrix-more-contact .email, .block--conzultrix-contact-conzultrix-more-contact .phone, .block--conzultrix-contact-conzultrix-more-contact .social {
+  font-size: 90%;
+}
+
+.contact-intro {
+  margin-bottom: 40px;
+  font-style: italic;
 }
 
 .contact-us-block {
@@ -475,6 +508,7 @@ div.responsive-toggled {
 }
 .not-front .block h2 {
   border-top: 2px solid #0B3386;
+  padding-top: 5px;
 }
 
 .l-footer h2 {
