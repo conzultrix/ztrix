@@ -125,6 +125,9 @@ form.contact-form {
   background-color: #eee;
   border: none;
 }
+.contact-form input[type='text']:focus, .contact-form textarea:focus {
+  background-color: #fff9b2;
+}
 
 .block--conzultrix-contact-conzultrix-more-contact .label {
   font-weight: bold;
@@ -138,7 +141,10 @@ form.contact-form {
 
 .contact-intro {
   margin-bottom: 40px;
-  font-style: italic;
+}
+
+.contact-email, .contact-phone, .contact-social {
+  margin-bottom: 40px;
 }
 
 .contact-us-block {

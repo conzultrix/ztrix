@@ -125,6 +125,9 @@ form.contact-form {
   background-color: #eee;
   border: none;
 }
+.contact-form input[type='text']:focus, .contact-form textarea:focus {
+  background-color: #fff9b2;
+}
 
 @media (min-width: 44em) {
   .contact-form textarea, .contact-form input[type="text"], .contact-form .grippie {
@@ -157,7 +160,10 @@ form.contact-form {
 
 .contact-intro {
   margin-bottom: 40px;
-  font-style: italic;
+}
+
+.contact-email, .contact-phone, .contact-social {
+  margin-bottom: 40px;
 }
 
 .contact-us-block {

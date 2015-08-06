@@ -6,6 +6,9 @@ form.contact-form {
   input[type='text'], textarea {
     background-color: #eee;
     border: none;
+    &:focus {
+      background-color: #fff9b2;
+    }
   }
 }
 
@@ -50,5 +53,8 @@ form.contact-form {
 
 .contact-intro {
   margin-bottom: 40px;
-  font-style: italic;
+}
+
+.contact-email, .contact-phone, .contact-social {
+  margin-bottom: 40px;
 }
