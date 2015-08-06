@@ -117,7 +117,7 @@ a:hover, a:focus {
   padding-bottom: 20px;
 }
 
-form.contact-form {
+form.contact-form, .contact-intro {
   padding-right: 2.5em;
 }
 
@@ -480,6 +480,10 @@ div.responsive-toggled {
 .not-front .block h2 {
   border-top: 2px solid #0B3386;
   padding-top: 5px;
+}
+
+.l-region--sidebar-first .block, .l-region--sidebar-first .block {
+  margin-top: 80px;
 }
 
 .l-footer h2 {
