@@ -48,6 +48,16 @@ img, media {
   text-align: center;
 }
 
+@media (min-width: 44em) {
+  .has-one-sidebar .l-content {
+    padding-right: 2em;
+  }
+}
+@media (min-width: 70em) {
+  .has-one-sidebar .l-content {
+    padding-right: 4em;
+  }
+}
 .l-header {
   border-bottom: 2px solid #0B3386;
 }

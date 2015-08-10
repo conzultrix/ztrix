@@ -1,0 +1,11 @@
+@include breakpoint($tab) {
+  .has-one-sidebar .l-content {
+    padding-right: 2em;
+  }
+}
+
+@include breakpoint($desk) {
+  .has-one-sidebar .l-content {
+    padding-right: 4em;
+  }
+}
