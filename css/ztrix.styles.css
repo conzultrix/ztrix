@@ -115,6 +115,43 @@ a:hover, a:focus {
   display: inline;
 }
 
+.btn {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF0B3386', endColorstr='#FF030F28');
+  background-color: #0B3386;
+  border: 0;
+  color: white;
+  text-shadow: #010610 0 -1px 0;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #092a6e;
+}
+.btn:active {
+  background-color: #082560;
+}
+.btn.disabled, .btn[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn:hover {
+  color: #FFF;
+}
+
 #comments {
   margin: 20px 0;
   padding: 2em;
@@ -197,6 +234,10 @@ form.contact-form, .contact-intro {
 }
 
 .field--full-image {
+  text-align: center;
+}
+
+.field--image {
   text-align: center;
 }
 
