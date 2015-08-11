@@ -696,11 +696,8 @@ div.responsive-toggled {
     border-right: none;
   }
 
-  .product-teaser ul {
-    text-align: center;
-  }
   .product-teaser .l-grid > li {
-    width: 30%;
+    width: 45%;
     padding-right: 2em;
     margin-right: 3%;
     text-align: left;
