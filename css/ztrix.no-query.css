@@ -623,10 +623,9 @@ div.responsive-toggled {
 }
 
 .profile-image img {
-  border: 5px solid #FFF;
-  box-shadow: 1px 1px 4px #858585;
   text-align: center;
   margin-top: 40px;
+  border-radius: 50%;
 }
 
 .team-members img {
