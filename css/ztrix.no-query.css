@@ -43,6 +43,11 @@ ul {
   list-style: none;
 }
 
+ul.article-list {
+  padding-left: 40px;
+  list-style-type: square;
+}
+
 img, media {
   max-width: 100%;
   text-align: center;
@@ -96,6 +101,10 @@ a:hover, a:focus {
 }
 .home-intro a:hover {
   color: #000000;
+}
+
+code {
+  padding-left: 40px;
 }
 
 .breadcrumb {

@@ -5,3 +5,8 @@ ol, ul {
 ul {
   list-style: none;
 }
+
+ul.article-list {
+  padding-left: 40px;
+  list-style-type: square;
+}
